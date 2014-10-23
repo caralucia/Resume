@@ -8,8 +8,10 @@
 <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 <style>
-
-
+body
+	{
+		text-align: left;
+	}
 #heading
 	{
 	text-align: left;
@@ -22,27 +24,39 @@
 	border-radius: 25px;
 	margin-left: 3em;
 	}
+	}
+
+#heading h1
+	{
+	padding: 0em;
+	}
 	
 .textbox
 	{
-	border: 3px solid;
-	text-align: left;
+	border: 4px solid;
 	font-family: 'Bitter', serif;
 	background-color: ivory;
-	padding: 10em;
+	padding-top: 0em;
+	padding-left: 1em;
+	padding-right:1em;
+	padding-bottom: 5em;
 	border-radius: 25px;
-	margin: .5em;
-	height: 30em;
+	height: 25em;
 	}
 
-#box1
+#column1
 	{
-	text-align:left;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 2em;
 	}
-
 	
-
-
+#column2
+	{
+	margin-left:0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	}
 </style>
 </head>
 <body>
@@ -50,7 +64,7 @@
 	<h1>Cara Fierro</h1>
 </div>
 
-<div id="section1">
+<div id="column1">
 	<div id="box1" class="textbox" >
 		<h2>About</h2>
 		<p>Hi my name is Cara Fierro. I am from central New Jersey, but am currently a Junior at Saint Josephs University in Philadelphia. I am a communications major with a immense interest in art and traveling.</p>
@@ -58,10 +72,12 @@
 
 	</div>
 	
-<div id="section1">
+<div id="column2">
 	<div id="box2" class="textbox">
-		<h2>Work Experience</h2>
-		<p>I was a marketing intern at Food Network Magazine this past summer. My job entitled me to research advertising companies and competetive magazines data: if they were doing better or worse than FNM.</p>
+		<h3>Work Experience</h3>
+		<p>I was a marketing intern at Food Network Magazine this past summer. 
+		My job entitled me to research advertising companies and competetive magazines data: 
+		if they were doing better or worse than FNM.</p>
 		
 	</div>
 
@@ -69,3 +85,5 @@
 
 </body>
 </html>	
+
+

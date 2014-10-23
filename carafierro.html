@@ -12,6 +12,11 @@ body
 	{
 		text-align: left;
 	}
+
+section {
+	border-bottom: 1px solid black;
+}
+
 #heading
 	{
 	text-align: left;
@@ -51,7 +56,7 @@ body
 #box2
 	{
 	margin-left: 10em;
-	margin-right: 10em;
+	margin-right: 5em;
 	height: 10em;
 	}
 
@@ -62,16 +67,17 @@ body
 	<h1>Cara Fierro</h1>
 </div>
 
+<section id= "floats">
 <div id="column1">
-	<div id="box1" class="textbox" >
+	<div id="box1" class="textbox" style="float:left; width:40%">
 		<h2>About</h2>
 		<p>Hi my name is Cara Fierro. I am from central New Jersey, but am currently a Junior at Saint Josephs University in Philadelphia. I am a communications major with a immense interest in art and traveling.</p>
-		<img src="carafierro.jpg" alt="Barcelona" style="width:240px;height:280px"
+		<img src="carafierro.jpg" alt="Barcelona" style="width:240px;height:270px" align="left">
 
 	</div>
 	
-<div id="column2">
-	<div id="box2" class="textbox">
+<div id="column2"
+	<div id="box2" class="textbox" style="float:left; width:40%">
 		<h3>Work Experience</h3>
 		<p>I was a marketing intern at Food Network Magazine this past summer. 
 		My job entitled me to research advertising companies and competetive magazines data: 
@@ -80,7 +86,7 @@ body
 	</div>
 
 </div>
-
+</section>
 </body>
 </html>	
 

@@ -12,17 +12,22 @@ body
 	{
 		text-align: left;
 	}
+
+section {
+	border-bottom: 1px solid black;
+}
+
 #heading
 	{
 	text-align: left;
-	width: 90%;
+	width: 100%;
 	border: 1px solid;
 	background-color: Lightblue;
 	padding: 0em;
 	font-family: 'Bitter', serif;
 	color: white;
-	border-radius: 25px;
-	margin-left: 3em;
+	border-radius: 10px;
+	margin-left: 0em;
 	}
 	}
 
@@ -39,24 +44,22 @@ body
 	padding-top: 0em;
 	padding-left: 1em;
 	padding-right:1em;
-	padding-bottom: 5em;
-	border-radius: 25px;
+	padding-bottom: .2em;
+	border-radius: 10px;
+	}
+
+#box1
+	{
 	height: 25em;
 	}
 
-#column1
+#box2
 	{
-	margin-left: 0em;
-	margin-right: 0em;
-	margin-bottom: 2em;
+	margin-left: 10em;
+	margin-right: 5em;
+	height: 10em;
 	}
-	
-#column2
-	{
-	margin-left:0em;
-	margin-right: 0em;
-	margin-top: 0em;
-	}
+
 </style>
 </head>
 <body>
@@ -64,16 +67,16 @@ body
 	<h1>Cara Fierro</h1>
 </div>
 
+<section id= "floats">
 <div id="column1">
-	<div id="box1" class="textbox" >
+	<div id="box1" class="textbox" style="float:left; width:40%">
 		<h2>About</h2>
-		<p>Hi my name is Cara Fierro. I am from central New Jersey, but am currently a Junior at Saint Josephs University in Philadelphia. I am a communications major with a immense interest in art and traveling.</p>
-		<img src="carafierro.jpg" alt="Barcelona" style="width:240px;height:300px"
+		<p>Hi my name is Cara Fierro. I am from central New Jersey, <img src="carafierro.jpg" alt="Barcelona" style="width:240px;height:270px" align="left"> but am currently a Junior at Saint Josephs University in Philadelphia. I am a communications major with a immense interest in art and traveling.</p>
 
 	</div>
 	
 <div id="column2">
-	<div id="box2" class="textbox">
+	<div id="box2" class="textbox" style="float:right; width:40%">
 		<h3>Work Experience</h3>
 		<p>I was a marketing intern at Food Network Magazine this past summer. 
 		My job entitled me to research advertising companies and competetive magazines data: 
@@ -82,7 +85,7 @@ body
 	</div>
 
 </div>
-
+</section>
 </body>
 </html>	
 

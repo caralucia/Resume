@@ -24,10 +24,11 @@ section {
 	text-align: center;
 	font-family: 'Bitter', serif;
 	font-size: 2em;
-	color: black;
+	color: White;
 	padding: .2em;
 	margin-left: .5em;
 	padding-bottom: .0em;
+	background-image: url(border.jpg);
 	}
 	
 	
@@ -67,8 +68,9 @@ section {
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
-	margin-left: 4em;
-	
+	margin-left: 7em;
+	line-height: 10em;
+	font-family: 'Bitter', serif;
 
 }
 
@@ -79,6 +81,7 @@ section {
 <body>
 <div id="heading">
 	<h1>Cara Fierro</h1>
+
 </div>
 
 
@@ -87,7 +90,7 @@ section {
 </div>
 
 <div id="tabContainer">
-		<a href="About.html">About</a><a href="Education.html">Education</a><a href="Work.html">Work</a><a href="Experience.html">Experience</a><a href="Photography.html">Photography</a>
+		<a href="About.html">About</a><a href="Education.html">Education</a><a href="Experience.html">Experience</a><a href="Photography.html">Photography</a>
 	</div>
 
 

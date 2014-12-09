@@ -47,7 +47,15 @@ section {
 	margin-left: 23em;
 	width: 100%;
 	padding-top: 2em;
-
+}
+	
+#contact {
+font-family: 'Bitter', serif;
+	font-size: 1em;
+	margin-left: 10em;
+	width: 100%;
+	padding-top: 2em;
+}
 </style>
 </head>
 <body>
@@ -60,7 +68,10 @@ section {
 	<h2>I am a Junior at Saint Josephs University in Philadelphia, but live in central New Jersey. At SJU I am studying as a communications major, which has taught me various skills and information about a range of subjects. Aside from studying communications I have an interest in art, photography, and old alternative rock & roll. As a 20 year old, I am very motivated to be successful in every task that I take on. For my future, I hope to achieve a career involved in public relations. <h2>
 </div>
 
-
+<div id="contact">
+	<h3>Contact Information:</h3>
+	<h4>Email: cf580417@sju.edu or carafierro@gmail.com </h4>
+	<h5>Number: 732-489-1073</h5>
 
 </body>
 </html>	

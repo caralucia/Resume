@@ -269,34 +269,31 @@ section {
 	margin-left: 15em;
 }
 
-.img-circular4 h2 {
-	font-family: 'Bitter', serif;
-	font-size: 1.8em;
-	margin-left: 10em;
-	padding-top: 0em;
+#box2{
+	background-color: #B9FFB7;
+	border: 25px black;
+	width: 50%;
+	height: 55%;
+	line-height: 2.5em;
+	margin-left: 35em;
+	border-radius: 5em;
+	text-align: center;
+	padding-bottom: 1em;
+	display: inline-block;
+	position: absolute;
+	top: 200px;
+	bottom: 200px;
+	
 }
 
-.img-circular4 h3 {
-	font-family: 'Bitter', serif;
+#box2 h1 {
+	font-size: 1.5em;
+	padding-bottom: 0em;
+}
+
+#box2 h2 {
 	font-size: 1em;
-	margin-left: 20em;
-	padding-top: 0em;
 }
-
-.img-circular4 h4 {
-	font-family: 'Bitter', serif;
-	font-size: 1em;
-	margin-left: 20em;
-	padding-top: 0em;
-}
-
-.img-circular4 li {
-	font-family: 'Bitter', serif;
-	font-size: 1em;
-	margin-left: 5em;
-	padding-top: 0em;
-}
-
 #section {
 	font-family: 'Bitter', serif;
 	font-size: 2em;

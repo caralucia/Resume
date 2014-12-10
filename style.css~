@@ -46,7 +46,7 @@ section {
 
 #tabContainer a:hover {
 
-	background-color: black;
+	background-color: white;
 }
 
 #tabContainer1 a {
@@ -55,7 +55,7 @@ section {
 	display: inline-block;
 	text-align: center;
 	background-color: #B9FFB7;
-	color: #DEC0F1;
+	color: black;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
@@ -74,7 +74,7 @@ section {
 	display: inline-block;
 	text-align: center;
 	background-color: #B9FFB7;
-	color: #DEC0F1;
+	color: black;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
@@ -92,7 +92,7 @@ section {
 	display: inline-block;
 	text-align: center;
 	background-color: #B9FFB7;
-	color: #DEC0F1;
+	color: black;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
@@ -112,7 +112,7 @@ section {
 	display: inline-block;
 	text-align: center;
 	background-color: #B9FFB7;
-	color: #DEC0F1;
+	color: black;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
@@ -130,7 +130,7 @@ section {
 	display: inline-block;
 	text-align: center;
 	background-color: #B9FFB7;
-	color: #DEC0F1;
+	color: black;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
@@ -148,7 +148,7 @@ section {
 	display: inline-block;
 	text-align: center;
 	background-color: #B9FFB7;
-	color: #DEC0F1;
+	color: black;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
@@ -216,49 +216,38 @@ section {
 	background-image: url(border.jpg);
 	}
 	
+#box {
+	background-color: white;
+	border: 25px black;
+	width: 45%;
+	height: 8%;
+	line-height: 5em;
+	margin-left: 50em;
+	border-radius: 5em;
+	text-align: center;
+	padding-bottom: 1em;
+	display: inline-block;
+	position: absolute;
+	top: 500px;
+	bottom: 80px;
+	font-size: .5em;
+	
+}
 	
 .img-circular3 {
 	
-	width: 280px;
-	height: 280px;
+	width: 300px;
+	height: 300px;
 	background-image: url(sju.jpg);
 	display: block;
 	border-radius: 20em;
-	margin-left: 15em;
-	
-}
-
-.img-circular3 h2 {
-	font-family: 'Bitter', serif;
-	font-size: 1.8em;
-	margin-left: 10em;
-	padding-top: 0em;
+	margin-left: 16em;
 	
 	
 }
 
-.img-circular3 li {
-	font-family: 'Bitter', serif;
-	font-size: 1em;
-	margin-left: 20em;
-	padding-top: 0em;
-	
-}
 
-.img-circular3 h3 {
-	font-family: 'Bitter', serif;
-	font-size: 1em;
-	margin-left: 20em;
-	padding-top: 0em;
-}
-
-.img-circular3 h4 {
-	font-family: 'Bitter', serif;
-	font-size: 1em;
-	margin-left: 20em;
-	padding-top: 0em;
 	
-}
 
 #header3 {
 	text-align: center;
@@ -307,3 +296,37 @@ section {
 	margin-left: 5em;
 	padding-top: 0em;
 }
+
+#section {
+	font-family: 'Bitter', serif;
+	font-size: 2em;
+	width: 70%;
+	background-color: white;
+	padding: 3em;
+	border-radius: 5em;
+	margin-left: 2.4em;
+	margin-right: 2.4em;
+	text-align: center;
+}
+	
+#tabContainercourses a {
+	width: 15em;
+	height: 15em;
+	display: inline-block;
+	text-align: center;
+	background-color: #B9FFB7;
+	color: black;
+	text-decoration: none;
+	border-radius: 10em;
+	margin: 0.5%;
+	margin-left: 12em;
+	line-height: 15em;
+	font-family: 'Bitter', serif;
+	position: absolute;
+	left: 425px;
+	top: 200px;
+	
+	
+}
+
+

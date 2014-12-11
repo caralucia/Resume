@@ -16,14 +16,9 @@
 </div>
 
 <div class="img-circular4">
-	<h2> Hearst Corporation: Food Network Magazine<h2>
-	</h2>
-	<h3>Marketing Intern Summer 2014</h3>
-	<h4> Job Requirements <h4>
-	<li> Packaging and shipping important items</li>
-	<li> Project: Researching competitive magazines (Racheal Ray, Cooking Light, AllRecipes). Created a powerpoint on the magazines advertisement data and compared them to FNM</li> 
-
 </div>
+
+
 
 <div id="tabContainer5">
 <a href="index.html">Home</a>
@@ -37,6 +32,14 @@
 <a href="education.html">Education</a>
 </div>
 
+<div id="box2">
+<h1>Food Network Magazine // Hearst Corporation <h1>
+<h1>Marketing Internship<h1>
+<h2>Packaged and shipped important merchandise</h2>
+<h2>Created survives on FNM's website about topics in current issue</h2>
+<h2>Researched competitors data: advertisers, readers profile, amount of subscribers</h2>
+<h2>Created strategies that would help FNM land Swatch as a advertiser</h2>
+</div>
 
 </body>
 </html>	

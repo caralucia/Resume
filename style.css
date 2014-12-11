@@ -1,15 +1,27 @@
 body
 	{
 		text-align: left;
-		background-color: #AAADC4;
+		background-color: #DEFFFC;
 		padding: 0em;
 		margin: 0em;
+	
 	}
 
 section {
 	border-bottom: 1px solid black;
 }
 
+#footer {
+	display: block;
+	background-color:black;
+	color: white;
+	font-family:'Fontdiner Swanky', cursive;
+	text-align: center;
+	margin-top: 10em;
+	margin-bottom: .2em;
+	padding: 0.5em;
+	
+}
 #heading
 	{
 	text-align: center;
@@ -54,14 +66,14 @@ section {
 	height: 8em;
 	display: inline-block;
 	text-align: center;
-	background-color: #B9FFB7;
-	color: black;
+	background-color: #A04668;
+	color: white;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
 	margin-left: 7em;
 	line-height: 8.5em;
-	font-family: 'Bitter', serif;
+	font-family: 'Fontdiner Swanky', cursive;
 	position: absolute;
 	left: 0px;
 	top: 150px;
@@ -73,14 +85,14 @@ section {
 	height: 8em;
 	display: inline-block;
 	text-align: center;
-	background-color: #B9FFB7;
-	color: black;
+	background-color: #A04668;
+	color: white;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
 	margin-left: 7em;
 	line-height: 8.5em;
-	font-family: 'Bitter', serif;
+	font-family: 'Fontdiner Swanky', cursive; 
 	position: absolute;
 	left: 0px;
 	top: 300px;
@@ -91,14 +103,14 @@ section {
 	height: 8em;
 	display: inline-block;
 	text-align: center;
-	background-color: #B9FFB7;
-	color: black;
+	background-color: #A04668;
+	color: white;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
 	margin-left: 7em;
 	line-height: 8.5em;
-	font-family: 'Bitter', serif;
+	font-family: 'Fontdiner Swanky', cursive;
 	position: absolute;
 	left: 80px;
 	top: 425px;
@@ -111,14 +123,14 @@ section {
 	height: 8em;
 	display: inline-block;
 	text-align: center;
-	background-color: #B9FFB7;
-	color: black;
+	background-color: #A04668;
+	color: white;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
 	margin-left: 7em;
 	line-height: 8.5em;
-	font-family: 'Bitter', serif;
+	font-family: 'Fontdiner Swanky', cursive;
 	position: absolute;
 	left: 0px;
 	top: 150px;
@@ -129,14 +141,14 @@ section {
 	height: 8em;
 	display: inline-block;
 	text-align: center;
-	background-color: #B9FFB7;
-	color: black;
+	background-color: #A04668;
+	color: white;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
 	margin-left: 7em;
 	line-height: 8.5em;
-	font-family: 'Bitter', serif;
+	font-family: 'Fontdiner Swanky', cursive;
 	position: absolute;
 	left: 0px;
 	top: 300px;
@@ -147,14 +159,14 @@ section {
 	height: 8em;
 	display: inline-block;
 	text-align: center;
-	background-color: #B9FFB7;
-	color: black;
+	background-color: #A04668;
+	color: white;
 	text-decoration: none;
 	border-radius: 5em;
 	margin: 0.5%;
 	margin-left: 7em;
 	line-height: 8.5em;
-	font-family: 'Bitter', serif;
+	font-family: 'Fontdiner Swanky', cursive;
 	position: absolute;
 	left: 80px;
 	top: 425px;
@@ -217,12 +229,13 @@ section {
 	}
 	
 #box {
-	background-color: white;
+	background-color: #B60D34;
 	border: 25px black;
 	width: 45%;
 	height: 8%;
+	color: white;
 	line-height: 5em;
-	margin-left: 50em;
+	margin-left: 70em;
 	border-radius: 5em;
 	text-align: center;
 	padding-bottom: 1em;
@@ -240,6 +253,7 @@ section {
 	height: 300px;
 	background-image: url(sju.jpg);
 	display: block;
+	border: black;
 	border-radius: 20em;
 	margin-left: 16em;
 	
@@ -247,7 +261,7 @@ section {
 }
 
 
-	
+
 
 #header3 {
 	text-align: center;
@@ -270,10 +284,11 @@ section {
 }
 
 #box2{
-	background-color: #B9FFB7;
+	background-color: #A04668;
 	border: 25px black;
 	width: 50%;
 	height: 55%;
+	color: white;
 	line-height: 2.5em;
 	margin-left: 35em;
 	border-radius: 5em;
@@ -298,9 +313,11 @@ section {
 	font-family: 'Bitter', serif;
 	font-size: 2em;
 	width: 70%;
-	background-color: white;
+	background-color: #A04668;
+	color: white;
 	padding: 3em;
 	border-radius: 5em;
+	height: 20%;
 	margin-left: 2.4em;
 	margin-right: 2.4em;
 	text-align: center;
@@ -311,19 +328,55 @@ section {
 	height: 15em;
 	display: inline-block;
 	text-align: center;
-	background-color: #B9FFB7;
-	color: black;
+	background-color: #A04668;
+	color: white;
 	text-decoration: none;
 	border-radius: 10em;
 	margin: 0.5%;
 	margin-left: 12em;
 	line-height: 15em;
-	font-family: 'Bitter', serif;
+	font-family: 'Fontdiner Swanky', cursive;
 	position: absolute;
 	left: 425px;
 	top: 200px;
 	
 	
+}
+
+#tabContainerphoto a {
+	width: 7em;
+	height: 7em;
+	display: inline-block;
+	text-align: center;
+	background-color: #A04668;
+	color: white;
+	text-decoration: none;
+	border-radius: 10em;
+	margin: 0.5%;
+	margin-left: 5em;
+	line-height: 7em;
+	font-family: 'Fontdiner Swanky', cursive;
+	position: absolute;
+	left: 325px;
+	top: 460px;
+}
+
+#tabContainerH a {
+	width: 100%;
+	height: 7%;
+	display: inline-block;
+	text-align: center;
+	background-color: #A04668;
+	color: white;
+	text-decoration: none;
+	border-radius: 0em;
+	margin: 0.5%;
+	margin-left: 0em;
+	line-height: 2.5em;
+	font-family: 'Fontdiner Swanky', cursive;
+	position: absolute;
+	left: 0px;
+	top: 120px;
 }
 
 

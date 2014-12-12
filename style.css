@@ -57,9 +57,9 @@ section {
 
 
 
-#tabContainer a:hover {
+#tabContainer1 a:hover {
 
-	background-color: white;
+	background-color: black;
 }
 
 #tabContainer1 a {
@@ -81,6 +81,11 @@ section {
 
 }
 
+#tabContainer2 a:hover {
+
+	background-color: black;
+}
+
 #tabContainer2 a {
 	width: 8em;
 	height: 8em;
@@ -97,6 +102,11 @@ section {
 	position: absolute;
 	left: 0px;
 	top: 300px;
+}
+
+#tabContainer3 a:hover {
+
+	background-color: black;
 }
 
 #tabContainer3 a {
@@ -117,7 +127,10 @@ section {
 	top: 425px;
 }
 
+#tabContainer5 a:hover {
 
+	background-color: black;
+}
 
 #tabContainer5 a {
 		width: 8em;
@@ -135,6 +148,11 @@ section {
 	position: absolute;
 	left: 0px;
 	top: 150px;
+}
+
+#tabContainer1a a:hover {
+
+	background-color: black;
 }
 
 #tabContainer1a a {
@@ -155,6 +173,10 @@ section {
 	top: 300px;
 }
 
+#tabContainer2a a:hover {
+
+	background-color: black;
+}
 #tabContainer2a a {
 	width: 8em;
 	height: 8em;
@@ -319,10 +341,16 @@ section {
 	color: white;
 	padding: 3em;
 	border-radius: 5em;
-	height: 20%;
-	margin-left: 2.4em;
+	height: 15%;
+	margin-left: 2.5em;
 	margin-right: 2.4em;
+	margin-top: 3em;
 	text-align: center;
+}
+
+#tabContainercourses a:hover {
+
+	background-color: black;
 }
 	
 #tabContainercourses a {
@@ -345,6 +373,11 @@ section {
 	
 }
 
+#tabContainerphoto a:hover {
+
+	background-color: black;
+}
+
 #tabContainerphoto a {
 	width: 7em;
 	height: 7em;
@@ -361,6 +394,11 @@ section {
 	position: absolute;
 	left: 325px;
 	top: 460px;
+}
+
+#tabContainerH a:hover {
+
+	background-color: black;
 }
 
 #tabContainerH a {
@@ -381,4 +419,22 @@ section {
 	top: 120px;
 }
 
+
+#tabContainerH2 a {
+	width: 100%;
+	height: 7%;
+	display: inline-block;
+	text-align: center;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	border-radius: 0em;
+	margin: 0.5%;
+	margin-left: 0em;
+	line-height: 2.5em;
+	font-family: 'Fontdiner Swanky', cursive;
+	position: absolute;
+	left: 0px;
+	top: 120px;
+}
 
